@@ -11,7 +11,7 @@ function FloatingPhotos(){
   const rotate2 = useTransform(scrollYProgress, [0, 1], [0, -10])
 
   return (
-    <div style={{position:'fixed', inset:0, pointerEvents:'none', zIndex:0}}>
+    <div className="floating-photos" style={{position:'fixed', inset:0, pointerEvents:'none', zIndex:0}}>
       <motion.img
         src={img1}
         alt="profile-1"

@@ -4,3 +4,24 @@
   padding-right: 80px;
   position: relative;
 }
+
+@media (max-width: 900px){
+  .hero-div{
+    padding-top: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 600px){
+  .hero-div{
+    padding-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Hide floating photos on small screens to avoid overlap */
+@media (max-width: 700px){
+  .floating-photos{ display: none; }
+}
