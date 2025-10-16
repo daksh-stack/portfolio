@@ -1,0 +1,23 @@
+.skills-section{
+  padding: 60px 80px 80px 80px;
+  color: var(--text-primary);
+}
+
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.skill-card{
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.skills-title-highlight{
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(0,224,255,0.25), rgba(0,224,255,0.0));
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border-glass);
+}
