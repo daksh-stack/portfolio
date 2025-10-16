@@ -1,0 +1,48 @@
+/* .body{
+    background-image: url('https://www.google.com/imgres?q=solar%20system%204k&imgurl=https%3A%2F%2F4kwallpapers.com%2Fimages%2Fwallpapers%2Fsolar-system-3840x2160-12831.jpg&imgrefurl=https%3A%2F%2F4kwallpapers.com%2Fspace%2Fsolar-system-12831.html&docid=d6aMpTSj8x49vM&tbnid=bpYOcLJtCXLa-M&vet=12ahUKEwit56a2tKWQAxXmd2wGHQH5M8QQM3oECB4QAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwit56a2tKWQAxXmd2wGHQH5M8QQM3oECB4QAA');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+} */
+
+.hero {
+  height: auto;
+  padding: 80px 0;
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.hero h1{
+  font-size: 3rem;
+  font-weight : 700;
+  margin-bottom: 15px;
+}
+.highlight{
+    color: #00aaff;
+}
+
+.hero-content{
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+
+.hero2{
+  background-color: rgb(44, 33, 15);
+  height: auto;
+  padding: 80px, 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: aliceblue;
+
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* vertically center */
+  text-align: center;      /* center text inside */
+  background-color: #000; /* or any color */
+  opacity: 0.7; 
+}

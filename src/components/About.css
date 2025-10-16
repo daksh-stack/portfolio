@@ -1,0 +1,15 @@
+.about{
+  height: auto;
+  padding: 80px 80px;
+  padding-right: 160px; /* reserve space for side socials */
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 900px){
+  .about{ padding-right: 80px; }
+}
