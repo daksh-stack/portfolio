@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import img1 from '../assets/img1.jpg'
+import img2 from '../assets/img2.jpg'
 
 function FloatingPhotos(){
   const { scrollYProgress } = useScroll()
@@ -11,7 +13,7 @@ function FloatingPhotos(){
   return (
     <div style={{position:'fixed', inset:0, pointerEvents:'none', zIndex:0}}>
       <motion.img
-        src={"/src/assets/img1.jpg"}
+        src={img1}
         alt="profile-1"
         style={{
           position:'absolute',
@@ -31,7 +33,7 @@ function FloatingPhotos(){
         transition={{ duration: 0.8 }}
       />
       <motion.img
-        src={"/src/assets/img2.jpg"}
+        src={img2}
         alt="profile-2"
         style={{
           position:'absolute',
