@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || '/portfolio/tree/main/daksh-portfolio', // Ensures correct path resolution
+  base: '/', // Use root path for Vercel deployment
   build: {
     outDir: 'dist' // Specifies the output directory
   },
